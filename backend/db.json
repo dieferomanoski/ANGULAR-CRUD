@@ -1,19 +1,24 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Harley D. Iron 883",
-            "price": "40.500"
-        },
-        {
-            "id": 2,
-            "name": "Yamaha XVS Drag Star 650",
-            "price": "18.500"
-        },
-        {
-            "id": 3,
-            "name": "Yamaha Virago 250",
-            "price": "850.00"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Harley D. Iron 883",
+      "price": "40.500"
+    },
+    {
+      "id": 2,
+      "name": "Yamaha XVS Drag Star 650",
+      "price": "18.500"
+    },
+    {
+      "id": 3,
+      "name": "Yamaha Virago 250",
+      "price": "850.00"
+    },
+    {
+      "name": "Dafra Kansas 150",
+      "price": "3.400",
+      "id": 4
+    }
+  ]
 }
