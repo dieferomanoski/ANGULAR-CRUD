@@ -3,22 +3,32 @@
     {
       "id": 1,
       "name": "Harley D. Iron 883",
-      "price": "40.500"
+      "price": 40.5
     },
     {
       "id": 2,
       "name": "Yamaha XVS Drag Star 650",
-      "price": "18.500"
+      "price": 18.5
     },
     {
       "id": 3,
       "name": "Yamaha Virago 250",
-      "price": "850.00"
+      "price": 850
     },
     {
       "name": "Dafra Kansas 150",
-      "price": "3.400",
+      "price": 3.4,
       "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Yamaha Virago XV 535",
+      "price": 14.299
+    },
+    {
+      "name": "Honda Shadow 600",
+      "price": "18.599",
+      "id": 6
     }
   ]
 }
