@@ -1,2 +1,2 @@
 # ANGULAR-CRUD
-Aplicação CRUD, usando Angular e Angular Material
+Simples Aplicação CRUD, usando Angular e Angular Material
