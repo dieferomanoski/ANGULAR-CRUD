@@ -27,13 +27,18 @@
     },
     {
       "name": "Harley D. Fat Boy Special",
-      "price": "60.000",
+      "price": "62.237",
       "id": 7
     },
     {
       "name": "Dafra Kansas 150",
       "price": "3.699",
       "id": 8
+    },
+    {
+      "name": "Harley D. Night Rod",
+      "price": "61.350",
+      "id": 10
     }
   ]
 }
