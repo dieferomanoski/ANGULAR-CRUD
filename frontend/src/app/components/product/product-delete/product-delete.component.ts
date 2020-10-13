@@ -4,11 +4,12 @@ import { ProductService } from './../product.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'product-update',
-  templateUrl: './product-update.component.html',
-  styleUrls: ['./product-update.component.scss']
+  selector: 'product-delete',
+  templateUrl: './product-delete.component.html',
+  styleUrls: ['./product-delete.component.scss']
 })
-export class ProductUpdateComponent implements OnInit {
+export class ProductDeleteComponent implements OnInit {
+
 
   product: Product;
 
@@ -23,9 +24,12 @@ export class ProductUpdateComponent implements OnInit {
     })
   }
 
-  updateProduct(): void {
-    this.productService.update(this.product).subscribe(() => {
-      this.productService.showMessage('Produto atualizado com sucesso!')
+
+  deleteProduct(): void {
+    // const id = String(this.product.id)
+
+    this.productService.delete(this.product.id).subscribe(() => {
+      this.productService.showMessage('Produto excluido com sucesso!!!')
       this.router.navigate(['/products'])
     })
   }
