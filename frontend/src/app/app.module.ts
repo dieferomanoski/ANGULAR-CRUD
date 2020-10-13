@@ -1,3 +1,4 @@
+import { HeaderService } from './components/template/header/header.service';
 import { ProductService } from './components/product/product.service';
 
 import { BrowserModule } from '@angular/platform-browser';
